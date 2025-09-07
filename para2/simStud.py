@@ -43,7 +43,6 @@ class Student:
         self.end_of_day()
         self.is_alive()
 
-
 nick = Student(name="Nick")
 for day in range(365):
     if nick.alive == False:

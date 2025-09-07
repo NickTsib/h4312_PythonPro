@@ -8,4 +8,3 @@ petya = Student(height=180)
 
 print(vasya.height)
 print(petya.height)
-
