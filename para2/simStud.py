@@ -32,7 +32,7 @@ class Student:
         print(f"Progress = {round(self.progress, 2)}")
     def live(self, day):
         text_day = f"Day {day} of {self.name} live"
-        print(f"{text_day:=^30}")
+        print(f"{text_day:=^40}")
         cube = randint(1, 3)
         if cube == 1:
             self.to_sleep()
@@ -44,7 +44,7 @@ class Student:
         self.is_alive()
 
 nick = Student(name="Nick")
-for day in range(365):
+for day in range(1, 366):
     if nick.alive == False:
         break
     nick.live(day)
